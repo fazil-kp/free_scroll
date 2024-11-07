@@ -1,3 +1,12 @@
+## 1.0.4
+
+- Added support for custom scroll speed via the `scrollSpeed` parameter for finer control over scrolling behavior.
+- Improved performance when handling multiple widgets inside the scrollable area.
+- Fixed a bug where zooming and scrolling could conflict when using very small or large zoom scales.
+- Enhanced the responsiveness of the layout on different screen sizes and devices.
+- Updated the example code in the documentation to reflect recent changes and improvements.
+- Minor bug fixes and optimizations for smoother touch and mouse interactions.
+
 ## 1.0.3
 
 - Added support for customizing the zoom sensitivity via a `zoomSensitivity` parameter.
