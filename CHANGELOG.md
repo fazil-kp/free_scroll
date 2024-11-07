@@ -1,3 +1,12 @@
+## 1.0.6
+
+- Introduced a `scrollDirection` parameter to allow users to customize whether scrolling is horizontal, vertical, or both.
+- Improved compatibility with Flutter’s newer versions, enhancing overall stability.
+- Fixed an issue where custom padding would not be applied correctly in some edge cases.
+- Optimized memory usage when rendering large numbers of items in the scrollable area.
+- Enhanced documentation with examples for advanced use cases and configurations.
+- Minor UI improvements in the default scroll area layout for better visual consistency.
+
 ## 1.0.5
 
 - Added support for custom scroll speed via the `scrollSpeed` parameter for finer control over scrolling behavior.
