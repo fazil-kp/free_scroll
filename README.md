@@ -56,60 +56,13 @@ FreeScroll(
 
 - This project is licensed under the [MIT License](https://github.com/fazil-kp/free_scroll/blob/main/LICENSE) - see the LICENSE file for details.
 
-
 ## Contributing
 
-We welcome contributions to the **Free Scroll** package! If you'd like to help improve this project, please follow these steps:
+We welcome your contributions! Here's how you can help:
 
-### How to Contribute
+1. **Fork the Repository**: Fork the repository to your own GitHub account.
+2. **Create a New Branch**: Create a new branch for your feature or bug fix.
+3. **Make Changes**: Implement your changes and make sure to include relevant tests and documentation.
+4. **Submit a Pull Request**: Push your changes and submit a pull request for review.
 
-1. **Fork the Repository**
-   - Start by forking the repository. Click the "Fork" button at the top right of this page to create a copy of the repository under your GitHub account.
-
-2. **Clone Your Fork**
-   - Clone the forked repository to your local machine using the following command:
-     ```bash
-     git clone https://github.com/your-username/free_scroll.git
-     ```
-
-3. **Create a New Branch**
-   - Before making changes, create a new branch for your work:
-     ```bash
-     git checkout -b feature/your-feature-name
-     ```
-
-4. **Make Changes**
-   - Make the necessary changes or improvements. You can add new features, fix bugs, improve documentation, or write tests.
-
-5. **Test Your Changes**
-   - If applicable, test your changes locally. Ensure that everything works as expected.
-
-6. **Commit Your Changes**
-   - Commit your changes with a descriptive commit message:
-     ```bash
-     git commit -m "Add new feature or fix [description]"
-     ```
-
-7. **Push Your Changes**
-   - Push your changes to your forked repository:
-     ```bash
-     git push origin feature/your-feature-name
-     ```
-
-8. **Create a Pull Request**
-   - Go to the original repository and create a pull request (PR). You can do this by clicking the "New Pull Request" button on GitHub.
-   - Describe the changes you made in the PR. Be clear about the issue you’re solving or the feature you’re adding.
-
-### Pull Request Guidelines
-
-- **Code Style**: Please ensure your code adheres to the existing code style of the project.
-- **Tests**: If you are adding new features, make sure to include tests to verify your changes.
-- **Documentation**: Update the `README.md` or other documentation if you add or modify features.
-- **Commit Messages**: Use clear, concise commit messages. Follow the convention of "Add [feature]" or "Fix [bug]" for easier tracking.
-
-### Reporting Issues
-
-- If you encounter a bug or have an idea for an enhancement, please open an issue. Provide as much detail as possible, including steps to reproduce and any error messages.
-
----
-
+Please ensure your code follows the project's style and is well-tested. We appreciate all contributions!
