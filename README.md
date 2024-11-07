@@ -1,6 +1,6 @@
 # Free Scroll
 
-A Flutter package that enables freeform scrolling and zooming of widgets within a constrained area. This package is optimized for **both touchscreen devices** (like mobile, tablets, and touch-enabled PCs) and **non-touchscreen devices** (such as traditional desktop PCs and laptops). Whether you're using touch gestures or a mouse, FreeScroll provides a smooth zooming and scrolling experience.
+A Flutter package that enables **4-dimensional** scrolling and **zooming** of widgets within a constrained area. This package is optimized for **both touchscreen devices** (like mobile, tablets, and touch-enabled PCs) and **non-touchscreen devices** (such as traditional desktop PCs and laptops). Whether you're using touch gestures or a mouse, FreeScroll provides a smooth zooming and scrolling experience.
 
 ## Features
 
