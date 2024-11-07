@@ -54,7 +54,7 @@ FreeScroll(
 
 ## License
 
-- This project is licensed under the [MIT License](https://github.com/fazil-kp/free_scroll/blob/main/LICENSE) - see the LICENSE file for details.
+- This project is licensed under the MIT License - see the [LICENSE](https://github.com/fazil-kp/free_scroll/blob/main/LICENSE) file for details.
 
 ## Contributing
 
