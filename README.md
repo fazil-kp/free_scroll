@@ -51,3 +51,11 @@ FreeScroll(
   },
 )
 ```
+
+## License
+
+- This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contributing
+
+- Feel free to open issues and create pull requests. All contributions are welcome!

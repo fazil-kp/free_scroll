@@ -1,6 +1,6 @@
 name: free_scroll
 description: "A Flutter package that enables freeform scrolling and zooming of widgets within a constrained area."
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/fazil-kp/free_scroll.git
 
 environment:
