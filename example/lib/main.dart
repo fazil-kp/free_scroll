@@ -40,5 +40,3 @@ class ExampleScreen extends StatelessWidget {
     );
   }
 }
-
-
