@@ -20,9 +20,22 @@ dependencies:
   free_scroll: ^latest_version
 ```
 
+## Parameters
+
+| **Parameter**       | **Type** | **Description**                                                          |
+| ------------------- | -------- | ------------------------------------------------------------------------ |
+| **itemCount**       | Required | The number of items to display in the scrollable area.                   |
+| **itemBuilder**     | Required | A function to build the widget for each item.                            |
+| **backgroundColor** | Optional | The background color of the scrollable area (defaults to light gray).    |
+| **minScale**        | Optional | The minimum scale factor for zooming (defaults to `1.0`).                |
+| **maxScale**        | Optional | The maximum scale factor for zooming (defaults to `3.0`).                |
+| **width**           | Optional | The width of the scrollable area (defaults to `double.infinity`).        |
+| **height**          | Optional | The height of the scrollable area (defaults to `double.infinity`).       |
+| **padding**         | Optional | Padding around the scrollable area (defaults to `EdgeInsets.all(20.0)`). |
+| **spacing**         | Optional | Horizontal spacing between items in the grid (defaults to `15.0`).       |
+| **runSpacing**      | Optional | Vertical spacing between items in the grid (defaults to `15.0`).         |
 
 ## Usage
-
 
 ```
 FreeScroll(
@@ -38,19 +51,3 @@ FreeScroll(
   },
 )
 ```
-
-
-## Parameters
-
-| **Parameter**         | **Type**   | **Description**                                                                                                                                                 |
-|-----------------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **itemCount**          | Required   | The number of items to display in the scrollable area.                                                                                                         |
-| **itemBuilder**        | Required   | A function to build the widget for each item.                                                                                                                   |
-| **backgroundColor**    | Optional   | The background color of the scrollable area (defaults to light gray).                                                                                         |
-| **minScale**           | Optional   | The minimum scale factor for zooming (defaults to `1.0`).                                                                                                     |
-| **maxScale**           | Optional   | The maximum scale factor for zooming (defaults to `3.0`).                                                                                                     |
-| **width**              | Optional   | The width of the scrollable area (defaults to `double.infinity`).                                                                                             |
-| **height**             | Optional   | The height of the scrollable area (defaults to `double.infinity`).                                                                                            |
-| **padding**            | Optional   | Padding around the scrollable area (defaults to `EdgeInsets.all(20.0)`).                                                                                      |
-| **spacing**            | Optional   | Horizontal spacing between items in the grid (defaults to `15.0`).                                                                                           |
-| **runSpacing**         | Optional   | Vertical spacing between items in the grid (defaults to `15.0`).                                                                                             |
