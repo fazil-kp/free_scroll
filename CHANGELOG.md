@@ -1,8 +1,11 @@
+## 1.0.8
+
+- Improved compatibility with Flutter’s newer versions, enhancing overall stability.
+- Fixed an issue where custom padding would not be applied correctly in some edge cases.
+
 ## 1.0.7
 
 - Introduced a `scrollDirection` parameter to allow users to customize whether scrolling is horizontal, vertical, or both.
-- Improved compatibility with Flutter’s newer versions, enhancing overall stability.
-- Fixed an issue where custom padding would not be applied correctly in some edge cases.
 
 ## 1.0.6
 
