@@ -69,7 +69,7 @@ Please ensure your code follows the project's style and is well-tested. We appre
 
 ## Acknowledgments
 
-This package is a unique creation developed by Mohammed Fazil KP. It is designed to provide a smooth and customizable zooming and scrolling experience for Flutter developers, tailored to both touchscreen and non-touchscreen devices. The idea and implementation are entirely original, aiming to fill a gap in the Flutter ecosystem for 4-dimensional scrolling and zooming functionality.
+This package is a unique creation. It is designed to provide a smooth and customizable zooming and scrolling experience for Flutter developers, tailored to both touchscreen and non-touchscreen devices. The idea and implementation are entirely original, aiming to fill a gap in the Flutter ecosystem for 4-dimensional scrolling and zooming functionality.
 
 ## Copyright
 
