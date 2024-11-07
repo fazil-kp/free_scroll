@@ -66,3 +66,8 @@ We welcome your contributions! Here's how you can help:
 4. **Submit a Pull Request**: Push your changes and submit a pull request for review.
 
 Please ensure your code follows the project's style and is well-tested. We appreciate all contributions!
+
+## Copyright
+
+Copyright © 2024 Mohammed Fazil KP. All rights reserved.
+  
