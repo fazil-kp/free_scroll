@@ -1,39 +1,21 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# FreeScroll
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A Flutter package that enables freeform scrolling and zooming of widgets within a constrained area. This package is optimized for **both touchscreen devices** (like mobile, tablets, and touch-enabled PCs) and **non-touchscreen devices** (such as traditional desktop PCs and laptops). Whether you're using touch gestures or a mouse, FreeScroll provides a smooth zooming and scrolling experience.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- **Zooming**: Supports pinch-to-zoom gestures for touchscreen devices, allowing users to zoom in and out with customizable `minScale` and `maxScale` values.
+- **Scrolling**: Freeform scrolling in any direction (horizontal and vertical) while zooming in or out.
+- **Touchscreen and Non-Touchscreen Support**: Ideal for touchscreen devices (mobile, tablets, touch-enabled PCs) and non-touchscreen devices (desktop PCs). It supports pinch-to-zoom for touchscreens and mouse scroll zooming for non-touch devices.
+- **Pointer Scroll Zooming**: For desktop users, zooming can be done using mouse scroll gestures.
+- **Customizable Layout**: Configure padding, spacing, and constraints for width and height, making it flexible for various UI designs.
+- **Responsive Layout**: Utilizes the `Wrap` widget for a flexible grid-like layout.
 
-## Getting started
+## Installation
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add the following dependency to your `pubspec.yaml` file:
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  free_scroll: ^latest_version
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
