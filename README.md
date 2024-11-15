@@ -13,6 +13,9 @@ A Flutter package that enables **4-dimensional** scrolling and **zooming** of wi
 
 ## Examples
 
+Check out the [demo free scroll](https://fazil-kp.github.io/free_scroll_demo/) to see Free Scroll in action!
+
+
 ![1115](https://github.com/user-attachments/assets/fae3b845-9335-4181-807b-e94604b75c99)
 
 ## Installation
