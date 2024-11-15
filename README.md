@@ -41,9 +41,8 @@ FreeScroll(
 
 | **Parameter**       | **Type** | **Description**                                                          |
 | ------------------- | -------- | ------------------------------------------------------------------------ |
-| **itemCount**       | Required | The number of items to display in the scrollable area.                   |
-| **itemBuilder**     | Required | A function to build the widget for each item.                            |
-| **backgroundColor** | Optional | The background color of the scrollable area (defaults to light gray).    |
+| **children**        | Required | Widgets to display in the scrollable area.                               |
+| **backgroundColor** | Optional | The background color of the scrollable area (defaults to white).         |
 | **minScale**        | Optional | The minimum scale factor for zooming (defaults to `1.0`).                |
 | **maxScale**        | Optional | The maximum scale factor for zooming (defaults to `3.0`).                |
 | **width**           | Optional | The width of the scrollable area (defaults to `double.infinity`).        |
@@ -69,7 +68,7 @@ Please ensure your code follows the project's style and is well-tested. We appre
 
 ## Acknowledgments
 
-This package is a unique creation. It is designed to provide a smooth and customizable zooming and scrolling experience for Flutter developers, tailored to both touchscreen and non-touchscreen devices. The idea and implementation are entirely original, aiming to fill a gap in the Flutter ecosystem for 4-dimensional scrolling and zooming functionality.
+This package is a unique creation. It is designed to provide a smooth and customizable zooming and scrolling experience for your software, tailored to both touchscreen and non-touchscreen devices. The idea and implementation are entirely original, aiming to fill a gap in the Flutter ecosystem for 4-dimensional scrolling and zooming functionality.
 
 ## Copyright
 

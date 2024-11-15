@@ -84,7 +84,7 @@ class FreeScroll extends HookWidget {
         child: Container(
           width: width ?? double.infinity, // Use provided width or take the max available width.
           height: height ?? double.infinity, // Use provided height or take the max available height.
-          color: backgroundColor ?? Colors.grey[200], // Background color, defaults to light grey.
+          color: backgroundColor ?? Colors.white, // Background color, defaults to light grey.
           child: Padding(
             padding: padding ?? const EdgeInsets.all(20.0), // Use provided padding or default to 20.0.
             child: ClipRect(
