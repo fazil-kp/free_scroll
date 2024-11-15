@@ -1,3 +1,8 @@
+## 1.0.9
+
+- Improved compatibility with Flutter’s newer versions, enhancing overall stability.
+- Fixed an issue where custom padding would not be applied correctly in some edge cases.
+
 ## 1.0.8
 
 - Improved compatibility with Flutter’s newer versions, enhancing overall stability.
