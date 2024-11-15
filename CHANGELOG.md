@@ -1,3 +1,7 @@
+## 2.0.3
+
+- Fixed a bug where scrolling would not work correctly on non-touchscreen devices.
+
 ## 2.0.2
 
 - Fixed minor UI issues in the documentation example.

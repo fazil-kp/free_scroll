@@ -13,7 +13,7 @@ A Flutter package that enables **4-dimensional** scrolling and **zooming** of wi
 
 ## Examples
 
-![freescroll-ezgif com-optimize (1)](https://github.com/user-attachments/assets/c97462fc-c69d-438d-bc88-02a65b8dbeb2)
+![1115](https://github.com/user-attachments/assets/fae3b845-9335-4181-807b-e94604b75c99)
 
 ## Installation
 
