@@ -1,3 +1,7 @@
+## 2.0.2
+
+- Fixed minor UI issues in the documentation example.
+
 ## 2.0.1
 
 - Fixed an issue where the scrollable area would not reset after zooming out to the minimum scale.
