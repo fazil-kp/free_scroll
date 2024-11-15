@@ -31,6 +31,7 @@ class FreeScroll extends HookWidget {
 
   /// The spacing between items vertically.
   final double? runSpacing;
+  /// pass children to show your screen
   final List<Widget> children;
 
   /// Creates a new [FreeScroll] widget.
