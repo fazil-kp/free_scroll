@@ -1,3 +1,7 @@
+## 2.0.1
+
+- Fixed an issue where the scrollable area would not reset after zooming out to the minimum scale.
+
 ## 2.0.0
 
 - Optimized memory usage when rendering large numbers of items in the scrollable area.

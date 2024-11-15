@@ -11,6 +11,10 @@ A Flutter package that enables **4-dimensional** scrolling and **zooming** of wi
 - **Customizable Layout**: Configure padding, spacing, and constraints for width and height, making it flexible for various UI designs.
 - **Responsive Layout**: Utilizes the `Wrap` widget for a flexible grid-like layout.
 
+## Examples
+
+![freescroll-ezgif com-optimize (1)](https://github.com/user-attachments/assets/c97462fc-c69d-438d-bc88-02a65b8dbeb2)
+
 ## Installation
 
 Add the following dependency to your `pubspec.yaml` file:
