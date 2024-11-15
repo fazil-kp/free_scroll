@@ -24,16 +24,16 @@ dependencies:
 
 ```
 FreeScroll(
-  itemCount: 20,
-  itemBuilder: (context, index) {
-    return Container(
-      width: 120,
-      height: 120,
-      color: Colors.teal,
-      alignment: Alignment.center,
-      child: Text('Item $index', style: TextStyle(color: Colors.white)),
-    );
-  },
+  children: [
+    for (int i = 0; i <= 100; i++)
+      Container(
+        width: 150,
+        height: 150,
+        color: Colors.blue[100 * ((i % 9) + 1)],
+        alignment: Alignment.center,
+        child: Text('Item $i', style: const TextStyle(fontSize: 16)),
+      ),
+  ],
 )
 ```
 

@@ -26,16 +26,16 @@ class ExampleScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text("Freeform Scroll and Zoom Example")),
       body: FreeScroll(
-        itemCount: 100,
-        itemBuilder: (context, index) {
-          return Container(
-            width: 150,
-            height: 150,
-            color: Colors.blue[100 * ((index % 9) + 1)],
-            alignment: Alignment.center,
-            child: Text('Item $index', style: const TextStyle(fontSize: 16)),
-          );
-        },
+        children: [
+          for (int i = 0; i <= 100; i++)
+            Container(
+              width: 150,
+              height: 150,
+              color: Colors.blue[100 * ((i % 9) + 1)],
+              alignment: Alignment.center,
+              child: Text('Item $i', style: const TextStyle(fontSize: 16)),
+            )
+        ],
       ),
     );
   }
