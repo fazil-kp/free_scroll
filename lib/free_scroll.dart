@@ -81,7 +81,8 @@ class FreeScrollState extends State<FreeScroll> {
   /// Updates the scale and offset as the scale gesture progresses.
   void onScaleUpdate(ScaleUpdateDetails details) {
     setState(() {
-      _scale = (_scale * details.scale).clamp(widget.minScale ?? 1.0, widget.maxScale ?? 3.0);
+      _scale = (_scale * details.scale)
+          .clamp(widget.minScale ?? 1.0, widget.maxScale ?? 3.0);
       final Offset offsetDelta = details.focalPoint - _startingFocalPoint;
       _offset = _previousOffset + offsetDelta;
     });
@@ -91,7 +92,8 @@ class FreeScrollState extends State<FreeScroll> {
   void onPointerSignal(PointerSignalEvent event) {
     if (event is PointerScrollEvent) {
       setState(() {
-        _scale = (_scale + (event.scrollDelta.dy > 0 ? -0.1 : 0.1)).clamp(widget.minScale ?? 1.0, widget.maxScale ?? 3.0);
+        _scale = (_scale + (event.scrollDelta.dy > 0 ? -0.1 : 0.1))
+            .clamp(widget.minScale ?? 1.0, widget.maxScale ?? 3.0);
       });
     }
   }
@@ -101,31 +103,45 @@ class FreeScrollState extends State<FreeScroll> {
     return Listener(
       onPointerSignal: onPointerSignal, // Listens for pointer scroll events.
       child: GestureDetector(
-        onScaleStart: onScaleStart, // Triggers on the start of the scaling gesture.
+        onScaleStart:
+            onScaleStart, // Triggers on the start of the scaling gesture.
         onScaleUpdate: onScaleUpdate, // Triggers when the scale is updated.
         child: Container(
-          width: widget.width ?? double.infinity, // Use provided width or take the max available width.
-          height: widget.height ?? double.infinity, // Use provided height or take the max available height.
-          color: widget.backgroundColor ?? Colors.white, // Background color, defaults to white.
+          width: widget.width ??
+              double
+                  .infinity, // Use provided width or take the max available width.
+          height: widget.height ??
+              double
+                  .infinity, // Use provided height or take the max available height.
+          color: widget.backgroundColor ??
+              Colors.white, // Background color, defaults to white.
           child: Padding(
-            padding: widget.padding ?? const EdgeInsets.all(20.0), // Use provided padding or default to 20.0.
+            padding: widget.padding ??
+                const EdgeInsets.all(
+                    20.0), // Use provided padding or default to 20.0.
             child: ClipRect(
               // Clips the content to avoid overflowing.
               child: Transform(
-                alignment: Alignment.center, // The center will be used for zooming.
+                alignment:
+                    Alignment.center, // The center will be used for zooming.
                 transform: Matrix4.identity()
-                  ..translate(_offset.dx, _offset.dy) // Apply translation (scrolling).
+                  ..translate(
+                      _offset.dx, _offset.dy) // Apply translation (scrolling).
                   ..scale(_scale), // Apply scaling (zooming).
                 child: LayoutBuilder(
                   builder: (context, constraints) {
                     return ConstrainedBox(
                       constraints: BoxConstraints(
-                        minWidth: constraints.maxWidth, // Ensure content fills the available width.
-                        minHeight: constraints.maxHeight, // Ensure content fills the available height.
+                        minWidth: constraints
+                            .maxWidth, // Ensure content fills the available width.
+                        minHeight: constraints
+                            .maxHeight, // Ensure content fills the available height.
                       ),
                       child: Wrap(
-                        spacing: widget.spacing ?? 15.0, // Horizontal spacing between items.
-                        runSpacing: widget.runSpacing ?? 15.0, // Vertical spacing between items.
+                        spacing: widget.spacing ??
+                            15.0, // Horizontal spacing between items.
+                        runSpacing: widget.runSpacing ??
+                            15.0, // Vertical spacing between items.
                         children: widget.children,
                       ),
                     );
@@ -143,7 +159,8 @@ class FreeScrollState extends State<FreeScroll> {
 /// A helper class to manage the `FreeScroll` widget's key and actions.
 class FreeScrollManager {
   /// A [GlobalKey] that uniquely identifies the `FreeScroll` widget and its state.
-  final GlobalKey<FreeScrollState> _freeScrollKey = GlobalKey<FreeScrollState>();
+  final GlobalKey<FreeScrollState> _freeScrollKey =
+      GlobalKey<FreeScrollState>();
 
   /// Getter for the [GlobalKey] to access the `FreeScroll` widget's state.
   GlobalKey<FreeScrollState> get key => _freeScrollKey;

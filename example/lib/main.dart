@@ -43,12 +43,6 @@ class FreeScrollScreen extends StatelessWidget {
   }
 }
 
-
-
-
-
-
-
 void main() {
   runApp(const MyApp());
 }

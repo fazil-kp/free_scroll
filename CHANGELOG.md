@@ -1,3 +1,9 @@
+# 2.0.4
+
+- Improved performance for smooth scrolling on large lists.
+- Enhanced compatibility with Flutter's latest stable version.
+- Fixed an issue with rendering on devices with low screen resolutions.
+
 ## 2.0.3
 
 - Fixed a bug where scrolling would not work correctly on non-touchscreen devices.
