@@ -1,3 +1,9 @@
+# 2.0.5
+
+- Added a reset view option, allowing users to reset the scroll and zoom state programmatically.
+- Fixed minor UI glitches when using the scroll on specific device resolutions.
+- Improved responsiveness for various screen sizes and orientations.
+
 # 2.0.4
 
 - Improved performance for smooth scrolling on large lists.

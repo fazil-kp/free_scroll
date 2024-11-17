@@ -1,6 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:free_scroll/free_scroll.dart';
 
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Freeform Scroll and Zoom Example',
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: FreeScrollScreen(),
+    );
+  }
+}
+
 class FreeScrollScreen extends StatelessWidget {
   FreeScrollScreen({super.key});
 
@@ -39,23 +56,6 @@ class FreeScrollScreen extends StatelessWidget {
           ),
         ],
       ),
-    );
-  }
-}
-
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Freeform Scroll and Zoom Example',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: FreeScrollScreen(),
     );
   }
 }
